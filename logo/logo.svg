@@ -1,0 +1,12 @@
+<svg viewBox="0 0 1000 1000" xmlns="http://www.w3.org/2000/svg"> 
+  <!-- Inner rounded square -->
+  <rect x="50" y="50" width="1000" height="1000" rx="0" fill="#ffffff"/>
+  
+  <!-- X symbol in center -->
+  <g transform="translate(500, 500)">
+    <!-- First diagonal of X -->
+    <line x1="-300" y1="-300" x2="300" y2="300" stroke="#000000" stroke-width="90" stroke-linecap="round"/>
+    <!-- Second diagonal of X -->
+    <line x1="300" y1="-300" x2="-300" y2="300" stroke="#000000" stroke-width="90" stroke-linecap="round"/>
+  </g>
+</svg>
